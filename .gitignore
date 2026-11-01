@@ -1,0 +1,20 @@
+# Environments & Dependencies
+.venv/
+node_modules/
+config/node_modules/
+__pycache__/
+*.pyc
+
+# Secrets & Environment Variables
+.env
+*.pem
+*.key
+
+# Logs & Temp Artifacts
+logs/
+.pytest_cache/
+*.log
+
+# OS & Editor
+.DS_Store
+.idea/

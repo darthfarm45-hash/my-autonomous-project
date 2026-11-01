@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "node",
+      "args": [
+        "/Users/connorking/autonomous-workspace/config/node_modules/@modelcontextprotocol/server-filesystem/dist/index.js",
+        "/Users/connorking/autonomous-workspace"
+      ]
+    }
+  }
+}

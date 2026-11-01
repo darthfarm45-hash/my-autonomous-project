@@ -12,7 +12,7 @@ import argparse
 from datetime import datetime
 
 def run_tests(test_path: str = "tests") -> tuple[int, str]:
-    cmd = ["pytest", test_path, "-v", "--tb=short"]
+    cmd = [sys.executable, "-m", "pytest", test_path, "-v", "--tb=short"]
     try:
         proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
         return proc.returncode, proc.stdout
